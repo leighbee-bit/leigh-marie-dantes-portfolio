@@ -16,30 +16,36 @@
     <!--Contains navigation bar-->
     <div>
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffa5e6;">
-            <div class="container-fluid d-flex align-items-center">
-                <!-- Logo -->
-                <a class="navbar-brand me-5" href="./index.html">
-                    <img src="./image_assets/lmd logo three.png" height="100" alt="Logo">
-                </a>
-                <style>
-                    .btn-purple {
-                        color: #AB008B;
-                        border-color: #AB008B;
-                    }
+            <div class="container-fluid">
 
-                    .btn-purple:hover {
-                        background-color: #AB008B;
-                        color: white;
-                    }
-                </style>
+                <!-- Logo -->
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./image_assets/lmd logo three.png" class="img-fluid" style="max-height: 100px;" alt="Logo">
+                </a>
+
                 <!-- Button group -->
                 <div class="d-flex flex-wrap flex-grow-1 gap-2">
                     <a href="./hobbies.html" class="btn btn-lg flex-fill fs-2 btn-purple">Hobbies</a>
                     <a href="./awards.html" class="btn btn-lg flex-fill fs-2 btn-purple">Awards and News</a>
                     <a href="./resume.html" class="btn btn-lg flex-fill fs-2 btn-purple">Resume</a>
                 </div>
+
             </div>
         </nav>
+
+        <!-- Purple button style -->
+        <style>
+            .btn-purple {
+                color: #AB008B;
+                border-color: #AB008B;
+            }
+
+            .btn-purple:hover {
+                background-color: #AB008B;
+                color: white;
+            }
+        </style>
+
     </div>
 
     <div class="d-flex flex-column flex-md-row justify-content-center align-items-center px-3"
@@ -63,7 +69,8 @@
 
     <!-- Computer Scientist subtitle -->
     <div class="d-flex justify-content-center align-items-center px-3" style="margin-top: 20px;">
-        <p data-aos="fade-up" class="text-center text-purple" style="font-size: clamp(1.2rem, 3vw, 2rem);color: #AB008B;"><em>Computer
+        <p data-aos="fade-up" class="text-center text-purple"
+            style="font-size: clamp(1.2rem, 3vw, 2rem);color: #AB008B;"><em>Computer
                 Scientist</em></p>
     </div>
 
